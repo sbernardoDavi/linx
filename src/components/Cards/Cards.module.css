@@ -1,3 +1,22 @@
+
+.card {
+    border-style: ridge;
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
 .aindamais{
     display: flex;
     flex-wrap: wrap;
@@ -27,3 +46,4 @@
 .aindamais button:hover {
     opacity: 1
 }
+
