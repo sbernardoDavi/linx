@@ -1,0 +1,93 @@
+/** Texto **/
+.tituloanuncio{
+    font-size: 30px;
+    color: #888888;
+    margin-right: 40px;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-gap: 20px;
+    max-width: 900px;
+    padding:70px;
+    margin:10px auto;
+    color: #888888;
+   
+    
+}
+
+.formulario1{
+    width: 100px;
+    margin-left: 50px;
+    display: grid;
+    flex-wrap: wrap;
+    color: #888888;
+   
+}
+
+
+ 
+/** Buttons**/
+
+.input{
+    width: 300px ;
+    height: 20px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    border: solid 1px;
+    color: #888888;
+
+
+}
+
+.cpf{
+    width: 300px ;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: solid 1px;
+    color: #888888;
+}
+
+.enviar{ 
+    width: 310px;
+    border: none;
+    color: #888888;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.enviar:hover{
+    opacity: 100;
+    color: rgb(78, 78, 78);
+}
+
+.genero{
+    display: flex;
+    gap: 50px;
+    justify-content: start;
+}
+
+.lista::marker{
+    content: "";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
