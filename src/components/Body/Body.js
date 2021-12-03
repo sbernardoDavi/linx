@@ -44,11 +44,15 @@ function Body(){
                                         <label for="female">Feminino</label>
                                     </li>
                                 </ul>
-
                             <button class={styles.enviar}>Enviar</button>
                         </form>
                     </div>
             </section>
+            <div class={styles.linha}>
+                <h3 class={styles.titlelines}> <span>Sua seleção especial</span></h3>
+                <br></br>
+                <br></br>
+            </div>
         </article>
     )
 }

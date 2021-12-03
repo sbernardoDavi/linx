@@ -73,12 +73,58 @@
 .genero{
     display: flex;
     gap: 50px;
-    justify-content: start;
+    justify-content: flex-start;
     margin-top: 20px;
 }
 
 .lista::marker{
     content: "";
+}
+
+.linha{
+    color: #888888;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.titlelines {     
+    overflow: hidden;     
+    text-align: center;     
+    color: var(--secundary-color);     
+    font-size: 1.2rem;     
+    font-weight: 600;     
+    margin: 0 0 1rem 0;   
+}  
+
+.titlelines > span{    
+    position: relative;    
+    display: inline-block;   
+}   
+    
+.titlelines > span:before, .title-lines > span:after{    
+    content: '';    
+    position: absolute;    
+    top: 50%;    
+    border-bottom: .15rem solid;    
+    width: 100vw;   
+    margin: 0 20px;   
+}  
+
+.titlelines > span:after{    
+    content: '';    
+    position: absolute;    
+    top: 50%;    
+    border-bottom: .15rem solid;    
+    width: 100vw;   
+    margin: 0 20px;   
+} 
+
+.titlelines > span:before{    
+    right: 100%;   
+}  
+
+.titlelines > span:after{    
+    left: 100%;   
 }
 
 
