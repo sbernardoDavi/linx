@@ -1,0 +1,29 @@
+.aindamais{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.aindamais button{
+    text-align: center;
+    width: 300px;
+    background-color: white;
+    padding: 15px 40px;
+    text-align: center;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 15px;
+    color: rgb(77, 77, 77);
+    border: 1px solid #707070;
+
+}
+.aindamais button:hover {
+    opacity: 1
+}
