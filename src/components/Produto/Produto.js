@@ -24,8 +24,8 @@ export default class Produto extends Component {
             <section class={styles.produto}>
                 {
                     this.state.produtoList.map(
-                        function (produto) {
-                            return <Cards produto={produto} />
+                        function (Produto) {
+                            return <Cards Produto={Produto} />
                         },
                     )
                 }
