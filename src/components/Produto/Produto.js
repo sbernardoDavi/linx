@@ -1,4 +1,5 @@
 import { Component } from "react";
+import styles from './Produto.module.css'
 import Cards from "../Cards/Cards";
 
 export default class Produto extends Component {
@@ -20,11 +21,11 @@ export default class Produto extends Component {
 
     render() {
         return ( 
-            <section id="produtosdisponiveis">
+            <section class={styles.produto}>
                 {
-                    this.state.produtoLista.map(
+                    this.state.produtoList.map(
                         function (produto) {
-                            return <ProductCard produto={produto} />
+                            return <Cards produto={produto} />
                         },
                     )
                 }
