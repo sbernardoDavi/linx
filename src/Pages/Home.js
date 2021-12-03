@@ -9,10 +9,9 @@ export default class Home extends Component {
     render () {
         return (
             <div>
-                 <div class="container"><Header/> </div>
-                 <Body/> 
-                 <Cards/>
-                 <Footer/>
+                 <div> <Header/> </div>
+                 <div> <Body/>  </div> 
+                 <div> <Cards/> </div>
             </div>
 
         );
