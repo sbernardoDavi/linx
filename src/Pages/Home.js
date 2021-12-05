@@ -12,6 +12,7 @@ export default class Home extends Component {
                  <div> <Header/> </div>
                  <div> <Body/>  </div> 
                  <div> <Cards/> </div>
+                 <Footer/>
             </div>
 
         );
